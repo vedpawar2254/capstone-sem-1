@@ -1,0 +1,82 @@
+@media (max-width: 480px) {
+    .menu-btn-holder {
+      display: none;
+    }
+    .nav{
+        justify-content: center;
+    }
+    .logo{
+        width: 36vw;
+        height: auto;
+    }
+    .hero-text{
+        font-size: 2rem;
+    }
+    main{
+        padding: 0px 0px;
+    }
+    .hero-img{
+        height: auto;
+    }
+    .feed{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .column{
+        width: 90%;
+    }
+    .message{
+        padding: 10px 10px;
+    }
+    .message-first-div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0px;
+    }
+    .message-first-text{
+        font-size: 2rem;
+        width: fit-content;
+        margin: 0px 10px;
+        text-align: center;
+    }
+    .message-second-div{
+        flex-direction: column;
+    }
+    .message-second-div :nth-child(2){
+        align-self: auto;
+        width: auto;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .message-second-div :nth-child(1){
+        align-self: auto;
+        width: auto;
+    }
+    .footer{
+        padding: 0px 10px;
+    }
+    .first-footer-div{
+        height: auto;
+    }
+    .first-footer-div *{
+        margin: 5px 0px;
+        text-align: center;
+    }
+    .submit{
+        width: auto;
+    }
+    .second-footer-div{
+        padding: 0px 20px;
+        padding-bottom: 20px;
+    }
+    .heading{
+        font-size: 1.5rem;
+    }
+    .follow-btn{
+        padding: 5px 10px;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+  }

@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* main div */
+main {
+    padding: 48px 48px;
+}
+
+/* hero section */
+.hero {
+    width: 100%;
+    padding: 48px 0px;
+}
+
+.hero-text {
+    font-size: 13vh;
+    text-align: center;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* section -feed */
+.feed {
+    padding: 48px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 28vw;
+}
+.card{
+    margin: 30px 0px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-text,
+.card-heading {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.card-text {
+    font-size: 17px;
+}
+
+.card-heading {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* message section */
+.message-first-div{
+    padding: 48px 0px;
+}
+.message-first-text{
+    font-size: 3rem;
+    width: 50%;
+    margin-bottom: 48px;
+}
+.message-second-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 48px 0px;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    
+}
+.message-second-div :nth-child(1){
+    width: 50%;
+    font-size: 3rem;
+    align-self: flex-start;
+}
+.message-second-div :nth-child(2){
+    width: 45%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    align-self: flex-end;
+}
+
+/* footer */
+.footer{
+    border-top: 1px solid black;
+    padding: 0px 48px;
+}
+.footer *{
+    font-size: 1rem;
+}
+.first-footer-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+    padding: 10vh 0px;
+}
+.first-footer-div *{
+    margin: 12px 0px;
+}
+.heading{
+    font-size: 32px;
+}
+.number-filler{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number-filler *{
+    padding: 20px 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-size: 1rem;
+    margin: 5px;
+}
+.submit{
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: none;
+    width: 30%;
+}
+.second-footer-div{
+    display: flex;
+    flex-direction: column;
+}
+.second-footer-div p{
+    text-align: center;
+    font-size: rem;
+}
+.third-footer-div{
+    padding: 48px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.follow-btn{
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+
+.card-text{
+    font-size: 1rem;
+    justify-content:flex-end;
+    width: 50%;
+
+}
