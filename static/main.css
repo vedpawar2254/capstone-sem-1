@@ -156,9 +156,58 @@ main {
 }
 
 
-.card-text{
+.c-text{
     font-size: 1rem;
-    justify-content:flex-end;
-    width: 50%;
+    
+    width: 40%;
+}
 
+.message-div{
+    display: flex;    
+    align-items: center;
+    justify-content:right;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 48px 0px;  
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    
+    
+}
+
+
+.feed .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+    
+   
+}
+
+.feed .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.feed .card img {
+    transition: opacity 0.3s ease;
+    width: 100%;
+    
+}
+
+.feed .card:hover img {
+    opacity: 0.9;
+}
+
+.feed .card-heading {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px;
+    /* margin: 10px 0; */
+}
+
+.feed .card-text {
+    margin: 5px;
+    margin-bottom: 10px;
 }
